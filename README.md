@@ -1,60 +1,68 @@
-# Mix - Playlist Converter
-A simple script that takes your liked videos on Youtube, and generates a Spotify playlist based on the song in your liked videos.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
-* [Video](#Video)
-* [Technologies](#Technologies)
-* [Setup](#LocalSetup)
-* [ToDo](#ToDo)
-* [Troubleshooting](#Troubleshooting)
+## Available Scripts
 
-## Video
-Check out the youtube video for a step by step walk through 
-[Youtube Video]
+In the project directory, you can run:
 
-## Technologies
-* [Youtube Data API v3]
-* [Spotify Web API]
-* [Requests Library v 2.22.0]
-* [Youtube_dl v 2020.01.24]
+### `npm start`
 
-## LocalSetup
-1) Install All Dependencies   
-`pip3 install -r requirements.txt`
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-2) Collect You Spotify User ID and Oauth Token From Spotfiy and add it to secrets.py file
-    * To Collect your User ID, Log into Spotify then go here: [Account Overview] and its your **Username**
-    ![alt text](images/userid.png)
-    * To Collect your Oauth Token, Visit this url here: [Get Oauth] and click the **Get Token** button
-    ![alt text](images/spotify_token.png)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-3) Enable Oauth For Youtube and download the client_secrets.json   
-    * Ok this part is tricky but its worth it! Just follow the guide here [Set Up Youtube Oauth] ! 
-    If you are having issues check this out [Oauth Setup 2] and this one too [Oauth Setup 3] 
+### `npm test`
 
-4) Run the File  
-`python3 create_playlist.py`   
-    * you'll immediately see `Please visit this URL to authorize this application: <some long url>`
-    * click on it and log into your Google Account to collect the `authorization code`
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-## ToDo
-* Tests
-* Add Error Handling
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Troubleshooting
-* Spotify Oauth token expires very quickly, If you come across a `KeyError` this could
-be caused by an expired token. So just refer back to step 3 in local setup, and generate a new
-token!  
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-   [Youtube Data API v3]: <https://developers.google.com/youtube/v3>
-   [Spotify Web API]: <https://developer.spotify.com/documentation/web-api/>
-   [Requests Library v 2.22.0]: <https://requests.readthedocs.io/en/master/>
-   [Account Overview]: <https://www.spotify.com/us/account/overview/>
-   [Get Oauth]: <https://developer.spotify.com/console/post-playlists/>
-   [Set Up Youtube Oauth]: <https://developers.google.com/youtube/v3/getting-started/>
-   [Oauth Setup 2]:<https://stackoverflow.com/questions/11485271/google-oauth-2-authorization-error-redirect-uri-mismatch/>
-   [Youtube Video]:<https://www.youtube.com/watch?v=7J_qcttfnJA/>
-   [Youtube_dl v 2020.01.24]:<https://github.com/ytdl-org/youtube-dl/>
-   [Oauth Setup 3]:<https://github.com/googleapis/google-api-python-client/blob/master/docs/client-secrets.md/>
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
