@@ -1,9 +1,9 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="./logo.svg" alt="Project logo"></a>
+ <img width=200px height=200px src="/images/favicon.svg" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Mix</h3>
+<h3 align="center">Mix Playlist Converter</h3>
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center"> This project interatcs with Spotify's Data Api and Google's YouTube API to bring you seamless playlist conversions
     <br> 
 </p>
 
@@ -32,16 +32,14 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+Write about 1-2 paragraphs describing the purpose of your project. Okay. I got tired of trying to move things between spotify
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-What things you need to install the software and how to install them.
-
 ```
-Give examples
+Node.js
 ```
 
 ### Installing
@@ -62,46 +60,30 @@ until finished
 End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
-```
+TODO. Explain how to run the automated tests for this system.
+### Available Scripts
+npm install react-scripts@latest
+npm start
+npm test
+npm run build
 
 ## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
+TODO. Add notes about how to use the system.
 
 ## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+TODO. Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
+- [ReactJS](https://Reactjs.org/) - Web Framework
 - [NodeJs](https://nodejs.org/en/) - Server Environment
+- [French's Classic Yellow Mustard](https://www.amazon.com/Frenchs-Classic-Yellow-Mustard-Ground/dp/B019G3D2EC/ref=zg_bs_16319931_1?_encoding=UTF8&psc=1&refRID=5CGQ4DPFY88J7XHB2FQ4) - Fuel
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@mitchellciupak](https://github.com/mitchellciupak)
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- Hat tip to anyone whose code was used
+- TODO Hat tip to anyone whose code was used
 - Inspiration
 - References
-
-## Available Scripts
-npm install react-scripts@latest
-npm start
-npm test
-npm run build
 
 
