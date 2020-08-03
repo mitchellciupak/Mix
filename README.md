@@ -32,10 +32,9 @@
 - [Acknowledgments](#acknowledgement)
 
 ## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project. Okay. I got tired of trying to move things between spotify
+This project interatcs with Spotify's Data Api and Google's YouTube API to bring you seamless playlist conversions. Simply sign in on both accounts and select the playlist you would like to convert from a drop down and enter in the name of the playlist you want and press GO!
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 ```
